@@ -12,11 +12,7 @@
     <artifactId>core-tests</artifactId>
 
     <dependencies>
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>${testng.version}</version>
-        </dependency>
+
     </dependencies>
 
     <properties>
