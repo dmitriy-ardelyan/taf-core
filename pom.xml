@@ -12,6 +12,8 @@
         <module>core-tests</module>
         <module>util-methods</module>
         <module>properties-handler</module>
+        <module>logging</module>
+        <module>core-web</module>
     </modules>
 
     <properties>
@@ -19,6 +21,9 @@
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <testng.version>7.8.0</testng.version>
+        <selenium.api.version>4.10.0</selenium.api.version>
+        <slf4j-api.version>2.0.7</slf4j-api.version>
+
     </properties>
     <dependencies>
         <dependency>
@@ -26,6 +31,12 @@
             <artifactId>testng</artifactId>
             <version>${testng.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-api</artifactId>
+            <version>${selenium.api.version}</version>
+        </dependency>
+
     </dependencies>
 
 </project>
